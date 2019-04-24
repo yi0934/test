@@ -1,0 +1,13 @@
+
+docker pull ysrc/xunfeng
+docker run -d -p 60000:80 ysrc/xunfeng:latest
+docker exec -it xunfeng /bin/bash
+mongo 127.0.0.1£º65521
+show dbs
+use xunfeng
+show collections
+db.Info.find()
+
+
+admin
+xunfeng321
